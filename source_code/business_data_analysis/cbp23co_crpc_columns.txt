@@ -1,0 +1,31 @@
+cbp23co_crpc.csv - Column Layout
+(Based on county-layout-2020.txt)
+
+#    Column      Type   Description
+1    fipstate    C      FIPS State Code
+2    fipscty     C      FIPS County Code
+3    naics       C      Industry Code - 6-digit NAICS code
+4    emp_nf      C      Noise flag for Total Mid-March Employees
+5    emp         N      Total Mid-March Employees (with noise)
+6    qp1_nf      C      Noise flag for Total First Quarter Payroll
+7    qp1         N      Total First Quarter Payroll ($1,000), with noise
+8    ap_nf       C      Noise flag for Total Annual Payroll
+9    ap          N      Total Annual Payroll ($1,000), with noise
+10   est         N      Total Number of Establishments
+11   n<5         N      Establishments with <5 employees
+12   n5_9        N      Establishments with 5-9 employees
+13   n10_19      N      Establishments with 10-19 employees
+14   n20_49      N      Establishments with 20-49 employees
+15   n50_99      N      Establishments with 50-99 employees
+16   n100_249    N      Establishments with 100-249 employees
+17   n250_499    N      Establishments with 250-499 employees
+18   n500_999    N      Establishments with 500-999 employees
+19   n1000       N      Establishments with 1,000+ employees
+20   n1000_1     N      Establishments with 1,000-1,499 employees
+21   n1000_2     N      Establishments with 1,500-2,499 employees
+22   n1000_3     N      Establishments with 2,500-4,999 employees
+23   n1000_4     N      Establishments with 5,000+ employees
+
+Notes:
+- Noise flag columns (fields ending in _nf): G = 0 to <2% noise (low), H = 2 to <5% noise (medium), J = >=5% noise (high)
+- Establishment size-class columns (n<5, n5_9, etc.): N = Not available or not comparable
