@@ -14,6 +14,11 @@ that loads all datasets, builds the map, and serves the interactive dashboard.
 
 ---
 
+## Demo Video
+[![Capital Region Planning Commission CRPC Data Visualization and AI Assistance Internship Project](https://img.youtube.com/vi/EYTbgU9oy4c/maxresdefault.jpg)](https://www.youtube.com/watch?v=EYTbgU9oy4c)
+
+*> Click the image above to watch the full project walkthrough on YouTube.*
+
 ## What it does
 
 - **Interactive map** (Folium/Leaflet) of all 252 CRPC census tracts, color-coded by DRA
