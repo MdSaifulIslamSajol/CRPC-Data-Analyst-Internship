@@ -2,8 +2,7 @@
 
 An interactive web map of economic distress status for the 252 census tracts across the
 11 parishes of the Capital Region Planning Commission (CRPC) area in Louisiana, combined
-with LODES job-density data, County Business Patterns business-establishment data, and a
-natural-language AI assistant for querying all three datasets.
+with LODES job-density data, County Business Patterns business-establishment data, and an LLM-powered  AI assistant for natural-language querying, all three datasets.
 
 This folder is a **self-contained, portable copy** of the project. It does not depend on
 any files outside this directory -- copy the whole `CRPC Internship Project` folder to
